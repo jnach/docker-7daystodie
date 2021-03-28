@@ -14,6 +14,4 @@ RUN chmod +x /usr/local/bin/7dtd-*
 
 LABEL maintainer cliffrowley@gmail.com
 
-HEALTHCHECK CMD [ "7dtd-status" ]
-
 CMD ["steamcmd-wrapper", "7dtd-server"]
